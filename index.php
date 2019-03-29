@@ -1,5 +1,8 @@
 <?php
-    include("includes/header.php");
+    require_once("includes/classes/header.php");
+    $header = new Header("homepage.css");
+    $header->output();
+    
     include("includes/navbar.php");
 ?>
 
@@ -8,7 +11,6 @@
     <div class="container">
         <span class="display-4"><span>Mauritian </span><span id="typingTitle"></span></span>
         <p class="lead">A platform for promoting and preserving our mauritian culture.</p>
-        <hr class="my-4">
         <a class="btn btn-success btn-lg" href="#" role="button">Explore</a>
         <a class="btn btn-outline-success btn-lg" href="#" role="button">Contribute</a>
     </div>
@@ -30,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Card 1 -->
+            <!-- Card 2 -->
             <div class="col-sm mb-5">
                 <div class="card" style="width: 100%;">
                     <img src="assets/images/music.jpg" class="card-img-top" alt="...">
@@ -42,7 +44,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Card 1 -->
+            <!-- Card 3 -->
             <div class="col-sm mb-5">
                 <div class="card" style="width: 100%;">
                     <img src="assets/images/lemorne.jpg" class="card-img-top" alt="...">
@@ -57,8 +59,27 @@
 
         </div>
     </section>
-
 </div>
+
+<section id="parallax">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5" id="flag-container">
+
+            </div>
+            <div class="col-sm-7">
+                <p class="lead">Do you want to promote your own mauritian talent?</p>
+                <p class="lead">Do you want to help preserve our cultural and environmental heritage?</p>
+                <p class="lead">This is the right platform for you.</p>
+                <a class="btn btn-success btn-lg" href="#" role="button">Join us now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    jksfd
+</section>
 
 <!-- Typed.js -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>

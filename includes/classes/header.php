@@ -23,11 +23,15 @@ class Header
             <!-- Required meta tags -->
             <meta charset='utf-8'>
             <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-        
+
+            <link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+
             <!-- Bootstrap CSS -->
             <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>".$outputLink.
+
+            "<link rel='stylesheet' href='assets/css/footer.css'>
             
-            "<title>Homepage</title>
+            <title>Homepage</title>
         </head>
 
         <body>";

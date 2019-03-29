@@ -1,0 +1,29 @@
+section#parallax{
+    padding: 10%;
+    background-color: #F1EFF4;
+}
+
+#parallax{
+    padding: 8%;
+    margin-bottom: 17%;
+}
+#parallax #flag-container{
+    background-image: url("../images/flag.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbotron{
+    height: 420px;
+}
+.jumbotron p{
+    margin-top: 2.5%;
+    margin-bottom: 7%;
+}
+.jumbotron #typingTitle{
+    color: green;
+}
+#cards{
+    padding: 13% 0;
+}
+

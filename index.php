@@ -6,7 +6,7 @@
 <!-- Jumbotron -->
 <section class="jumbotron">
     <div class="container">
-        <h1 class="display-4">Mauritius</h1>
+        <span class="display-4"><span>Mauritian </span><span id="typingTitle"></span></span>
         <p class="lead">A platform for promoting and preserving our mauritian culture.</p>
         <hr class="my-4">
         <a class="btn btn-success btn-lg" href="#" role="button">Explore</a>
@@ -59,5 +59,19 @@
     </section>
 
 </div>
+
+<!-- Typed.js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+<script>
+var typed = new Typed('#typingTitle', {
+    strings: ['<i>culture.</i>', '<i>talent.</i>', '<i>history.</i>'],
+    typeSpeed: 35,
+    backSpeed: 45,
+    smartBackspace: false, // this is a default
+    loop: true,
+    showCursor: false
+});
+</script>
 
 <?php include("includes/footer.php"); ?>

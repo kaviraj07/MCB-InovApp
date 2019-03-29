@@ -16,7 +16,7 @@
             <ul class="navbar-nav mr-auto"></ul>
 
             <!-- Login button -->
-            <a class="btn btn-outline-success" href="#" role="button">Login</a>
+            <a class="btn btn-outline-light" href="#" role="button">Login</a>
 
         </div>
     </div>

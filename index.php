@@ -77,10 +77,6 @@
     </div>
 </section>
 
-<section>
-    jksfd
-</section>
-
 <!-- Typed.js -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 

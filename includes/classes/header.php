@@ -12,7 +12,7 @@ class Header
         $outputLink = "";
 
         if($this->link !== ""){
-            $outputLink =  "<link rel='stylesheet' href='assets/css/".$this->link."'>";
+            $outputLink =  "<link rel='stylesheet' href='".$this->link."'>";
         }
 
         echo

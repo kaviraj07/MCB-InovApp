@@ -1,6 +1,6 @@
 <?php
     require_once("includes/classes/header.php");
-    $header = new Header("homepage.css");
+    $header = new Header("assets/css/homepage.css");
     $header->output();
     
     include("includes/navbar.php");
@@ -11,8 +11,8 @@
     <div class="container">
         <span class="display-4"><span>Mauritian </span><span id="typingTitle"></span></span>
         <p class="lead">A platform for promoting and preserving our mauritian culture.</p>
-        <a class="btn btn-success btn-lg" href="#" role="button">Explore</a>
-        <a class="btn btn-outline-success btn-lg" href="#" role="button">Contribute</a>
+        <a class="btn btn-success btn-lg" href="posts.php" role="button">Explore</a>
+        <a class="btn btn-outline-success btn-lg" href="create.php" role="button">Create</a>
     </div>
 </section>
 
@@ -28,7 +28,7 @@
                     <div class="card-body">
                         <p class="card-text">Learn about the unique food culture of Mauritius. We have got all sorts of
                             mauritians food recipes ranging from dholl puri to briani. Become a mauritian cook.</p>
-                        <a href="#" class="card-link">Learn more</a>
+                        <a href="posts.php#food" class="card-link">Learn more</a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                         <p class="card-text">Learn about the music culture of Mauritius. Experience like never before
                             the Sega and geet gawai. Listen to songs and watch videos made by mauritians.
                         </p>
-                        <a href="#" class="card-link">Learn more</a>
+                        <a href="posts.php#music" class="card-link">Learn more</a>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                         <p class="card-text">Discover cultural places in Mauritius. From temples to museums, you will
                             learn about the enriching history of Mauritius. Prepare to dive into the shoes of a local
                             explorer.</p>
-                        <a href="#" class="card-link">Learn more</a>
+                        <a href="posts.php#places" class="card-link">Learn more</a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                 <p class="lead">Do you want to promote your own mauritian talent?</p>
                 <p class="lead">Do you want to help preserve our cultural and environmental heritage?</p>
                 <p class="lead">This is the right platform for you.</p>
-                <a class="btn btn-success btn-lg" href="#" role="button">Join us now</a>
+                <a class="btn btn-success btn-lg" href="create.php" role="button">Join us now</a>
             </div>
         </div>
     </div>
